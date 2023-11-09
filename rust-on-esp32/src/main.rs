@@ -16,7 +16,7 @@ fn main() -> anyhow::Result<()> {
     esp_idf_svc::log::EspLogger::initialize_default(); // initalize logger
 
     // The `?` at the end of the following lines means:
-    // "If this command returns an error, return the main function early with the error the function returned"
+    // "If this function returns an error, stop the main function and return that error."
     // It's like throwing an exception.
 
     let peripherals = Peripherals::take()?; // get list of peripherals
