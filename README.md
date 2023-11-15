@@ -47,5 +47,5 @@ cargo espflash flash <SERIAL>
 
 The standard sanity check after creating a new project is to create a project that blinks the internal led.
 
-See [main.rs](/rust-on-esp32/src/main.rs) for the sample code.
+See [main.rs](/src/main.rs) for the sample code.
 
