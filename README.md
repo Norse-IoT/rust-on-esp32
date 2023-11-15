@@ -1,5 +1,5 @@
 # rust-on-esp32
-Steps to running Rust on ESP32 by the Norse IoT club
+Steps to run Rust on ESP32, for use in the [Norse IoT club](https://norseiot.club/).
 
 Thanks to the [esp-rust](https://github.com/esp-rs) community for making this an easy process.
 
